@@ -23,26 +23,7 @@ module.exports = {
     },
   },
   daisyui: {
-    themes: [
-      {
-        light: {
-          'primary': '#0000ff',
-          'primary-content': 'white',
-          'secondary': '#F6F6F6',
-          'secondary-content': '#000000',
-          'neutral': '#E8E8E8',
-          'base-100': '#ffffff',
-          'base-200': '#f9fafb',
-          'base-300': '#f3f4f6',
-          'accent': '#37cdbe',
-          'accent-content': '#ffffff',
-          'info': '#3abff8',
-          'success': '#36d399',
-          'warning': '#fbbd23',
-          'error': '#f87272'
-        }
-      }
-    ],
+    themes: ['fantasy'],  
     base: true,
     styled: true,
     utils: true,
@@ -50,7 +31,7 @@ module.exports = {
     logs: true,
     themeRoot: ':root',
     darkTheme: false,
-    defaultTheme: 'light'
+    defaultTheme: 'fantasy'
   },
   plugins: [
     require('@tailwindcss/typography'),
