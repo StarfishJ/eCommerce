@@ -1,0 +1,17 @@
+{
+  "name": "ecom-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nrwl/workspace": "^19.8.4",
+    "nx": "20.8.1"
+  },
+  "nx": {}
+}
