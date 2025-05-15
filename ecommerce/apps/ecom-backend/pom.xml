@@ -67,7 +67,13 @@
 			<scope>test</scope>
 		</dependency>
 		
-	</dependencies>
+	
+   <dependency>
+     <groupId>de.taimos</groupId>
+     <artifactId>dvalin-jaxrs-jwtauth</artifactId>
+     <version>1.22</version>
+   </dependency>
+ </dependencies>
 
 	<build>
 		<plugins>
